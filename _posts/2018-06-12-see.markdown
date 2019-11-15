@@ -3,7 +3,7 @@ layout: post
 title:  "SeeThrough: Finding Objects in Heavily Occluded Indoor Scene Images"
 date:   2018-06-12 21:21:53 +00:00
 image: /images/seethrough_icon.jpg
-categories: Research
+categories: research
 author: "Pradyumna Reddy"
 paper: https://arxiv.org/abs/1710.10473
 authors: "Moos Hueting, Pradyumna Reddy, Ersin Yumer, Vladimir G. Kim, Nathan Carr, Niloy J. Mitra1"
