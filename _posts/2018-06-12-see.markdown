@@ -3,9 +3,11 @@ layout: post
 title:  "SeeThrough: Finding Objects in Heavily Occluded Indoor Scene Images"
 date:   2018-06-12 21:21:53 +00:00
 image: /images/seethrough_icon.jpg
-categories: Publications
+categories: Research
 author: "Pradyumna Reddy"
 paper: https://arxiv.org/abs/1710.10473
+authors: "Moos Hueting, Pradyumna Reddy, Ersin Yumer, Vladimir G. Kim, Nathan Carr, Niloy J. Mitra1"
+venue: "3DV 2018 Oral Presentation"
 ---
 Discovering 3D arrangements of objects from single indoor images is important given its many applications including interior design, content creation, etc. Although heavily researched in the recent years, existing approaches break down under medium or heavy occlusion as the core object detection module starts failing in absence of directly visible cues. Instead, we take into account holistic contextual 3D information, exploiting the fact that objects in indoor scenes co-occur mostly in typical near-regular configurations. First, we use a neural network trained on real indoor annotated images to extract 2D keypoints, and feed them to a 3D candidate object generation stage. Then, we solve a global selection problem among these 3D candidates using pairwise co-occurrence statistics discovered from a large 3D scene database. We iterate the process allowing for candidates with low keypoint response to be incrementally detected based on the location of the already discovered nearby objects. Focusing on chairs, we demonstrate significant performance improvement over combinations of state-of-the-art methods, especially for scenes with moderately to severely occluded objects.
 
