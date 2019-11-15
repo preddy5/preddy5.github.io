@@ -1,20 +1,17 @@
 ---
 layout: post
-title:  "A Maze Bot"
+title:  "SeeThrough: Finding Objects in Heavily Occluded Indoor Scene Images"
 date:   2017-06-12 21:21:53 +00:00
 image: /images/cs225a.jpg
-categories: Stanford
-author: "Leo Keselman"
-course: "CS225A: Experimental Robotics"
-video: https://www.youtube.com/watch?v=UcLmpWmIVzE
-video2: https://www.youtube.com/watch?v=MgCWEkhtqiQ
-paper: /pdfs/cs225a.pdf
+categories: Publications
+author: "Pradyumna Reddy"
+paper: https://arxiv.org/abs/1710.10473
 ---
-Making a 6-DoF PUMA arm solve a maze with real-time vision and tracking. 
+Making a 6-DoF PUMA arm solve a maze with real-time vision and tracking.
 
-The final project combined real-time vision, planning, and control into a success project for our Experimental Robotics Graduate class. 
+The final project combined real-time vision, planning, and control into a success project for our Experimental Robotics Graduate class.
 
-[CS225A Paper](/pdfs/cs225a.pdf){:target="_blank"}
+[Paper](https://arxiv.org/abs/1710.10473){:target="_blank"}
 
 [Short demo video on YouTube](https://www.youtube.com/watch?v=UcLmpWmIVzE)
 
