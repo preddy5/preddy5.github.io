@@ -8,5 +8,5 @@ categories: research
 author: "Pradyumna Reddy"
 paper: https://dl.acm.org/citation.cfm?id=2630595
 authors: "Amol Mahurkar, Ameya Joshi, Naren Nallapareddy, Pradyumna Reddy, Micha Feigin, Achuta Kadambi, Ramesh Raskar"
-venue: "Siggraph Poster 2014"
+venue: "Siggraph Poster"
 ---
