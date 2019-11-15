@@ -3,7 +3,7 @@ layout: post
 title:  "Selective Visualization of Anomalies in Fundus Images via Sparse and Low
 Rank Decomposition"
 date:   2014-06-20 21:21:53 +00:00
-image: /images/nmf_icon.jpg
+image: /images/nmf_icon.png
 categories: research
 author: "Pradyumna Reddy"
 paper: https://dl.acm.org/citation.cfm?id=2630595

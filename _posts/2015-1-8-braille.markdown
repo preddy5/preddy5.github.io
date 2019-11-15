@@ -2,7 +2,7 @@
 layout: post
 title:  "A Braille-based mobile communication and translation glove for deaf-blind people"
 date:   2015-01-08 21:21:53 +00:00
-image: /images/braille_icon.jpg
+image: /images/braille_icon.png
 categories: research
 author: "Pradyumna Reddy"
 paper: https://ieeexplore.ieee.org/abstract/document/7087033
