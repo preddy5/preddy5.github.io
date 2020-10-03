@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Discovering Pattern Structure Using Differentiable Compositing"
+date:   2020-10-03 21:21:53 +00:00
+image: /images/diffcomp_icon.jpg
+categories: research
+author: "Pradyumna Reddy"
+paper: http://geometry.cs.ucl.ac.uk/projects/2020/diffcompositing/paper_docs/paper.pdf
+authors: "Pradyumna Reddy, Paul Guerrero, Matt Fisher, Wilmot Li, Niloy J. Mitra"
+venue: "Siggraph Asia 2020"
+---
+Patterns, which are collections of elements arranged in regular or near-regular arrangements, are an important graphic art form and widely used due to their elegant simplicity and aesthetic appeal. When a pattern is encoded as a flat image without the underlying structure, manually editing the pattern is tedious and challenging as one has to both preserve the individual element shapes and their original relative arrangements. State-of-the-art deep learning frameworks that operate at the pixel level are unsuitable for manipulating such patterns. Specifically, these methods can easily disturb the shapes of the individual elements or their arrangement, and thus fail to preserve the latent structures of the input patterns. We present a novel differentiable compositing operator using pattern elements and use it to discover structures, in the form of a layered representation of graphical objects, directly from raw pattern images. This operator allows us to adapt current deep learning based image methods to effectively handle patterns. We evaluate our method on a range of patterns and demonstrate superiority in the context of pattern manipulations when compared against state-of-the-art pixel-based pixel- or point-based alternatives.
+[Paper](http://geometry.cs.ucl.ac.uk/projects/2020/diffcompositing/paper_docs/paper.pdf)
