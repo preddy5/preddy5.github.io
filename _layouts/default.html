@@ -81,9 +81,12 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <strong><em>{{post.venue}}</em></strong>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.paper %}
               <a href="{{post.paper}}">Paper</a> /
               {% endif %}
               {% if post.video %}
