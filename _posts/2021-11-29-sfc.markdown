@@ -6,8 +6,8 @@ image: /images/sfc_icon.jpg
 categories: research
 author: "Pradyumna Reddy"
 paper: http://geometry.cs.ucl.ac.uk/images/Search_for_Concepts.pdf
-website: https://github.com/preddy5/SFC
-code: https://github.com/preddy5/SFC
+website: http://geometry.cs.ucl.ac.uk/images/Search_for_Concepts.pdf
+code: http://geometry.cs.ucl.ac.uk/images/Search_for_Concepts.pdf
 authors: "Pradyumna Reddy, Paul Gurrero, Niloy J. Mitra"
 venue: "Preprint"
 ---
