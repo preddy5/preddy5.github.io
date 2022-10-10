@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Search for Concepts: Discovering Visual Concepts Using Direct Optimization"
+date:   2022-10-10 13:00:53 +00:00
+image: /images/sfc.png
+categories: research
+author: "Pradyumna Reddy"
+paper: http://geometry.cs.ucl.ac.uk/images/Search_for_Concepts.pdf
+website: http://geometry.cs.ucl.ac.uk/projects/2022/SFC/
+code: https://github.com/preddy5/SearchForConcepts
+authors: "Pradyumna Reddy, Paul Guerrero, Niloy J. Mitra"
+venue: "BMVC"
+---
+Finding an unsupervised decomposition of an image into individual objects is a key step to leverage compositionality and to perform symbolic reasoning. Traditionally, this problem is solved using amortized inference, which does not generalize beyond the scope of the training data, may sometimes miss correct decompositions, and requires large amounts of training data. We propose finding a decomposition using direct, unamortized optimization, via a combination of a gradient-based optimization for differentiable object properties and global search for non-differentiable properties. We show that using direct optimization is more generalizable, misses fewer correct decompositions, and typically requires less data than methods based on amortized inference. This highlights a weakness of the current prevalent practice of using amortized inference that can potentially be improved by integrating more direct optimization elements.
