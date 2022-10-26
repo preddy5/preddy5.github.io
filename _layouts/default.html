@@ -83,10 +83,16 @@
               {{post.authors}}
 
               <br>
-              <strong><em>{{post.venue}}</em> {{ post.date | date: "%Y" }}</strong>
+              <strong><em>{{post.venue}}</em> {{ post.date | date: "%Y" }} 
+              {% if post.awards %}              
+              <em>{{ post.comment }}</em>
+              {% endif %}
+              </strong>
               <br>
+              {% if post.awards %}
               <strong><em>{{post.awards}}</strong>
               <br>
+              {% endif %}
               {% if post.website %}
               <a href="{{post.website}}">Website</a> /
               {% endif %}
