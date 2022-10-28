@@ -5,8 +5,8 @@ date:   2022-10-10 13:00:53 +00:00
 image: /images/sfc.png
 categories: research
 author: "Pradyumna Reddy"
-paper: http://geometry.cs.ucl.ac.uk/images/Search_for_Concepts.pdf
-website: http://geometry.cs.ucl.ac.uk/projects/2022/SFC/
+paper: https://arxiv.org/abs/2210.14808
+website: https://geometry.cs.ucl.ac.uk/projects/2022/SearchForConcepts/
 code: https://github.com/preddy5/SearchForConcepts
 authors: "Pradyumna Reddy, Paul Guerrero, Niloy J. Mitra"
 venue: "BMVC"
