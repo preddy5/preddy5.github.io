@@ -111,6 +111,9 @@
               {% if post.slides %}
               <a href="{{post.slides}}">Slides</a> /
               {% endif %}
+              {% if post.supplementary %}
+              <a href="{{post.supplementary}}">Supplementary</a> /
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
