@@ -8,6 +8,7 @@ author: "Pradyumna Reddy"
 paper: https://arxiv.org/pdf/2102.02798.pdf
 website: http://geometry.cs.ucl.ac.uk/projects/2021/im2vec/
 code: https://github.com/preddy5/Im2Vec
+supplementary: https://preddy5.github.io/assets/paper_Unsupervised_Vector_Graphics_Learning_supplementary.pdf
 authors: "Pradyumna Reddy, Michael Gharbi, Michal Lukac, Niloy J. Mitra"
 venue: "CVPR"
 comment: "<font color='red'>Selected for Oral Presentation</font>"
