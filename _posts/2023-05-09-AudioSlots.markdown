@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AudioSlots: A slot-centric generative model for audio separation"
-date:   2022-05-09 13:00:53 +00:00
+date:   2023-05-09 13:00:53 +00:00
 image: /images/audioslots.png
 categories: research
 author: "Pradyumna Reddy"
