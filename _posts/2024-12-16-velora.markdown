@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Velora: Memory efficient training using rank-1 sub-token projections"
+date:   2024-12-16 13:00:53 +00:00
+image: /images/velora.png
+categories: research
+author: "Pradyumna Reddy"
+paper: https://proceedings.neurips.cc/paper_files/paper/2024/file/4a9eaf6dff3fdac9ab1aaf4c0fe2d563-Paper-Conference.pdf
+website: https://preddy5.github.io/
+code: https://github.com/roymiles/VeLoRA
+authors: "Roy Miles, Pradyumna Reddy, Ismail Elezi, Jiankang Deng"
+venue: "NeuRIPS"
+---
+Large language models (LLMs) have recently emerged as powerful tools for tackling many language-processing tasks. Despite their success, training and fine-tuning these models is still far too computationally and memory intensive. In this paper, we identify and characterise the important components needed for effective model convergence using gradient descent. In doing so we find that the intermediate activations used to implement backpropagation can be excessively compressed without incurring any degradation in performance. This result leads us to a cheap and memory-efficient algorithm for both fine-tuning and pre-training LLMs. The proposed algorithm simply divides the tokens up into smaller sub-tokens before projecting them onto a fixed 1-dimensional subspace during the forward pass. These features are then coarsely reconstructed during the backward pass to implement the update rules. We confirm the effectiveness of our algorithm as being complimentary to many state-of-the-art PEFT methods on the VTAB-1k fine-tuning benchmark. Furthermore, we outperform QLoRA for fine-tuning LLaMA and show competitive performance against other memory-efficient pre-training methods on the large-scale C4 dataset.
